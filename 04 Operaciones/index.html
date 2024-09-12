@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Operaciónes</title>
+</head>
+<body>
+
+    <!-- Suma -->
+    <h1>¿Cual es el resultado de esta suma?</h1>
+    <div class="contenedor">
+        <input class="contenedor__input" type="text" id="valor1" readonly>
+        <label for="">+</label>
+        <input class="contenedor__input" type="text" id="valor2" readonly>
+        <label for="">=</label>
+        <input class="contenedor__input respuesta respuesta__suma" type="text">
+        <button class="contenedor__button button__suma" type="button">Comprobación</button>
+    </div>
+    <div class="resultado respuesta__suma"></div>
+
+    <!-- Suma -->
+
+    <h1>¿Cual es el resultado de esta Resta?</h1>
+    <div class="contenedor">
+        <input class="contenedor__input" type="text" id="valor1R" readonly>
+        <label for="">-</label>
+        <input class="contenedor__input" type="text" id="valor2R" readonly>
+        <label for="">=</label>
+        <input class="contenedor__input respuesta respuesta__resta" type="text">
+        <button class="contenedor__button button__resta" type="button">Comprobación</button>
+    </div>
+    <div class="resultado respuesta__resta"></div>
+
+        <!-- Multiplicar -->
+
+    <h1>¿Cual es el resultado de esta Multiplicacion?</h1>
+    <div class="contenedor">
+        <input class="contenedor__input" type="text" id="valor1M" readonly>
+        <label for="">*</label>
+        <input class="contenedor__input" type="text" id="valor2M" readonly>
+        <label for="">=</label>
+        <input class="contenedor__input respuesta respuesta__multiplicar" type="text">
+        <button class="contenedor__button button__multiplicar" type="button">Comprobación</button>
+    </div>
+    <div class="resultado respuesta__multiplicar"></div>
+
+    <div class="contenedor">
+        <button class="contenedor__button button__recetear" type="button">Reiniciar</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

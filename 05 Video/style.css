@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flecha {
+    font-size: 4em;
+    width: 200px;
+    height: 200px;
+}
+
+.porcentaje {
+    font-size: 2em;
+}
+
+.boton1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(fondoBoton.png);
+    border-radius: 50%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    user-select: none;
+    cursor: pointer;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+}
+
+.boton1:active {
+    box-shadow: 0 0 12px #000;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fase0 {
+    width: 150px;
+    background-color: #cddc39;
+    border: 6px green solid;
+    border-radius: 12px;
+    padding: 2px 15px 8px;
+}
+
+.fase1 {
+    width: 150px;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+    color: white;
+}
+
+.fase2 {
+    width: 250px;
+    background-color: #9c27b0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0px;
+    padding: 6px;
+    color: white;
+}
+
+section {
+    display: flex;
+    align-items: flex-end;
+}
+
+img {
+    width: 100%;
+}
+
+.precio {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8em;
+    flex:1;
+    /* Con align self solo afecta al objeto seleccionado. */
+    align-self: flex-start;
+    margin-right: 15px;
+
+}
+
+.descipción {
+    text-align: center;
+}
+
+.imagen {
+    width: 50%;
+}
+
+.imagen2 {
+    width: 30%;
+}
