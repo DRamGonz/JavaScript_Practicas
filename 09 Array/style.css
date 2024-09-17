@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.h2 {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.imput {
+    background-color: #ff9;
+    border-radius: 12px;
+    border: 1px solid #000;
+    padding-left: 15px;
+}
+
+.boton {
+    width: 80px;
+    background-color: #48e;
+    border-radius: 12px;
+    border: none;
+    border: 1px solid #48f;
+    box-sizing: 0 0 12px #000;
+    color: white;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #42f;
+    width: 85px;
+}
+
+.personajes {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.rey {
+    text-align: center;
+}
+
